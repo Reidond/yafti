@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "yafti"
-version = "0.6.0"
+version = "0.7.0"
 description = "Yet another first time installer"
 authors = ["Marco Ceppi <marco@ceppi.net>"]
 license = "Apache 2.0"
@@ -24,7 +24,7 @@ pygobject = "^3.42.2"
 pyyaml = "^6.0"
 gbulb = "^0.6.4"
 rich = "^13.3.2"
-typer = "^0.7.0"
+typer = ">=0.7,<0.10"
 
 [tool.poetry.plugins."yafti.plugin"]
 "yafti.plugin.flatpak" = "yafti.plugin.flatpak:Flatpak"
@@ -41,7 +41,7 @@ typer = "^0.7.0"
 black = "^23.1.0"
 isort = "^5.12.0"
 pytest = "^7.2.1"
-ruff = ">=0.0.254,<0.0.262"
+ruff = ">=0.0.254,<0.0.271"
 coverage = "^7.2.1"
 pytest-cov = "^4.0.0"
 pytest-asyncio = ">=0.20.3,<0.22.0"

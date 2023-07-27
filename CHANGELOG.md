@@ -1,5 +1,37 @@
 # Changelog
 
+## [0.7.0](https://github.com/ublue-os/yafti/compare/v0.6.2...v0.7.0) (2023-07-05)
+
+
+### Features
+
+* Allow run plugin to be used as a package manager ([#128](https://github.com/ublue-os/yafti/issues/128)) ([7912e09](https://github.com/ublue-os/yafti/commit/7912e0984b6431f25482e681604944f2dc603215))
+
+
+### Bug Fixes
+
+* add application title ([#113](https://github.com/ublue-os/yafti/issues/113)) ([7f6b475](https://github.com/ublue-os/yafti/commit/7f6b4757632b4885eb882156c8e1f8e79711b070))
+
+
+### Reverts
+
+* "fix: add application title" ([#116](https://github.com/ublue-os/yafti/issues/116)) ([fb3c8ee](https://github.com/ublue-os/yafti/commit/fb3c8eee34548428efec7bf4f25883d39e76e23d))
+
+## [0.6.2](https://github.com/ublue-os/yafti/compare/v0.6.1...v0.6.2) (2023-05-30)
+
+
+### Bug Fixes
+
+* move user data to sub-folder and ensure folder existence ([#102](https://github.com/ublue-os/yafti/issues/102)) ([7fce7fb](https://github.com/ublue-os/yafti/commit/7fce7fb7e1f1f4e82d359c4653494fcd0c4b593a))
+
+## [0.6.1](https://github.com/ublue-os/yafti/compare/v0.6.0...v0.6.1) (2023-04-17)
+
+
+### Bug Fixes
+
+* multiple links in "final-screen" values results in error ([#84](https://github.com/ublue-os/yafti/issues/84)) ([457ffe8](https://github.com/ublue-os/yafti/commit/457ffe83865079c61101d0a2b705cd1485a7340b))
+* yafti.screen.package title doesn't show up ([#85](https://github.com/ublue-os/yafti/issues/85)) ([8641b56](https://github.com/ublue-os/yafti/commit/8641b5614d89e28b912ae5a6fe0ba646f22c70ee))
+
 ## [0.6.0](https://github.com/ublue-os/yafti/compare/v0.5.0...v0.6.0) (2023-04-12)
 
 
